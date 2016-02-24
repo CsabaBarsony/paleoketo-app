@@ -30,7 +30,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec"
+    "test": "./node_modules/.bin/mocha --reporter spec --compilers js:babel-core/register --recursive"
   },
   "repository": {
     "type": "git",

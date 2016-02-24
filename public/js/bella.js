@@ -49,4 +49,9 @@ var bella = (function() {
 	};
 })();
 
-module.exports = bella;
+if (window) {
+
+}
+else {
+	module.exports = bella;
+}

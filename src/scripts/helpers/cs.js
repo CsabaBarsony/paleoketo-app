@@ -109,7 +109,7 @@ if(false) {
 		}
 	});
 	if(result) {
-		console.log('All tests succeeded!');
+		console.log('All test succeeded!');
 	}
 }
 

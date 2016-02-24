@@ -2491,7 +2491,7 @@ var EventPluginHub = {
   },
 
   /**
-   * These are needed for tests only. Do not use!
+   * These are needed for test only. Do not use!
    */
   __purge: function () {
     listenerBank = {};
@@ -2982,7 +2982,7 @@ function accumulateDirectionalDispatches(domID, upwards, event) {
 
 /**
  * Collect dispatches (must be entirely collected before dispatching - see unit
- * tests). Lazily allocate the array to conserve memory.  We must loop through
+ * test). Lazily allocate the array to conserve memory.  We must loop through
  * each event and perform the traversal for each one. We cannot perform a
  * single traversal for the entire collection of events because each event may
  * have a different target.
@@ -9066,7 +9066,7 @@ var ReactElement = function (type, key, ref, self, source, owner, props) {
 
     // To make comparing ReactElements easier for testing purposes, we make
     // the validation flag non-enumerable (where possible, which should
-    // include every environment we run tests in), so the test framework
+    // include every environment we run test in), so the test framework
     // ignores it.
     if (canDefineProperty) {
       Object.defineProperty(element._store, 'validated', {
