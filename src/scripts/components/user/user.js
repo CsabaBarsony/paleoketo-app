@@ -1,5 +1,3 @@
-var ReactDOM = require('react-dom');
-
 var cs = require('../../helpers/cs');
 var schemas = require('../../schemas');
 var server = require('../../server');

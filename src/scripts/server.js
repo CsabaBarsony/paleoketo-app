@@ -90,7 +90,7 @@ module.exports = {
 			}
 		},
 		getName: function() {
-			return 'this is my name';
+			return 'this is the name of the food';
 		}
 	}
 };
